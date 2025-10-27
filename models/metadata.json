@@ -1,0 +1,13 @@
+{
+  "last_observation_date": "2024-12-31",
+  "n_observations": 366,
+  "train_size": 292,
+  "valid_size": 74,
+  "metrics": {
+    "MAE": 1885.1847794404753,
+    "RMSE": 2610.413103110255,
+    "R2": 0.03661375149651136,
+    "MAPE": 46.50644066357177
+  },
+  "seasonal_periods": 7
+}

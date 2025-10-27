@@ -1,0 +1,32 @@
+{
+    "best_model": "RandomForest_Daily",
+    "comparison": {
+        "RandomForest_Daily": {
+            "MAE": 159.2189952864355,
+            "RMSE": 251.56097723214097,
+            "R2": 0.9902432851324718,
+            "MAPE": 2.8369101941337926,
+            "train_size": 336,
+            "test_size": 30,
+            "last_trained": "2025-10-27 22:49:11"
+        },
+        "RandomForest_Monthly": {
+            "MAE": 5659.4850333335635,
+            "RMSE": 5660.820366091979,
+            "R2": 0.5232880445694593,
+            "MAPE": 3.043679705181707,
+            "train_months": 10,
+            "test_months": 2,
+            "last_trained": "2025-10-27 22:58:38"
+        },
+        "Prophet": {
+            "MAE": 1387.6967192549648,
+            "RMSE": 2006.8833133762541,
+            "R2": 0.37904330936111796,
+            "MAPE": 29.380918044986426,
+            "train_size": 336,
+            "test_size": 30,
+            "last_trained": "2025-10-27 23:07:34"
+        }
+    }
+}
