@@ -1,15 +1,24 @@
 # 🚀 Meal Expense Forecast API (Live Demo)
 
-### 🔗 Live Railway Links
+### 🔗 Live Railway API Endpoints
 | Endpoint | Description | URL |
-|-----------|--------------|-----|
-| 🌐 **Base URL** | Root of the API | [https://web-production-e2163.up.railway.app](https://web-production-e2163.up.railway.app) |
-| 🩺 **Health Check** | API health status | [https://web-production-e2163.up.railway.app/health](https://web-production-e2163.up.railway.app/health) |
-| 📈 **Monthly Prediction** | Predict expenses for a given month | [https://web-production-e2163.up.railway.app/predict/month?year=2025&month=10](https://web-production-e2163.up.railway.app/predict/month?year=2025&month=10) |
-| 🧮 **Model Metrics** | Compare model performance | [https://web-production-e2163.up.railway.app/metrics](https://web-production-e2163.up.railway.app/metrics) |
-| 🧠 **Model Retrain (POST)** | Retrain the model | [https://web-production-e2163.up.railway.app/retrain](https://web-production-e2163.up.railway.app/retrain) |
-| 📊 **Forecast Plot** | Visualize future forecast | [https://web-production-e2163.up.railway.app/plots/forecast](https://web-production-e2163.up.railway.app/plots/forecast) |
-| 📉 **Historical Trend Plot** | View past expense trends | [https://web-production-e2163.up.railway.app/plots/history](https://web-production-e2163.up.railway.app/plots/history) |
+|---------|-------------|-----|
+| 🌐 **Base URL** | Root of the API | https://web-production-e2163.up.railway.app |
+| 🩺 **Health Check** | API health status | https://web-production-e2163.up.railway.app/health |
+| 📈 **Monthly Prediction** | Predict expenses for a given month | https://web-production-e2163.up.railway.app/predict/month?year=2025&month=10 |
+| 🧮 **Model Metrics** | Compare model performance | https://web-production-e2163.up.railway.app/metrics |
+| 🧠 **Model Retrain (POST)** | Retrain the model dynamically | https://web-production-e2163.up.railway.app/retrain |
+| 📊 **Forecast Plot** | Visualize future expense forecast trends | https://web-production-e2163.up.railway.app/plots/forecast |
+| 📉 **Historical Trend Plot** | View historical expense data visualization | https://web-production-e2163.up.railway.app/plots/history |
+
+---
+
+### 🌐 Frontend UI (NestJS + React, Deployed on Vercel)
+| Feature | Description | URL |
+|--------|-------------|-----|
+| 🍽️ **Meal Expense Dashboard** | Visual interface built on top of this API | https://meal-app-delta-tan.vercel.app/predictions |
+
+> This UI interactively displays forecast results, monthly expense breakdowns, and helps plan next month's meal budget using data served from this API.
 
 ---
 
